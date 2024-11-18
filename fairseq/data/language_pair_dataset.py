@@ -117,6 +117,8 @@ def collate(
         "net_input": {
             "src_tokens": src_tokens,
             "src_lengths": src_lengths,
+            "tgt_tokens": target,
+            "tgt_lengths": tgt_lengths,
         },
         "target": target,
     }
